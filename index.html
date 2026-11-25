@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2b2018">
+  <meta name="description" content="SJO Coffee: cafeteria virtual de cafe. Ordena tus bebidas(antojos)favoritas por pedido y recibelas donde estes.">
+  <meta property="og:title" content="SJO Coffee | Cafeteria virtual">
+  <meta property="og:description" content="Cafe preparado por pedido. Ordena en linea desde donde estes.">
+  <meta property="og:type" content="website">
+  <title>SJO Coffee | Cafeteria virtual de cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="SJO Coffee, inicio">
+        <img src="logo-warm.png" alt="Emblema de SJO Coffee">
+        <span class="brand-text">
+          <strong>SJO Coffee</strong>
+          <small>Cafeteria virtual</small>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav id="menu" aria-label="Navegacion principal">
+        <a href="#menu-matcha">Matcha</a>
+        <a href="#menu-cafe">Cafe</a>
+        <a href="#menu-smoothie">Smoothie</a>
+        <a href="#menu-waffles">Waffles</a>
+        <a href="#como-ordenar">Como ordenar</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <a class="nav-order" href="#ordenar">Ordenar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">CAFETERIA VIRTUAL · SOLO POR PEDIDO</p>
+        <h1>Buen cafe,<br><em>pedido a tu medida.</em></h1>
+        <p class="intro">SJO Coffee prepara tus bebidas favoritas exclusivamente por encargo. Elige lo que deseas, envia tu orden y disfruta cada sorbo donde estes.</p>
+        <div class="hero-actions">
+          <a class="button ghost" href="#menu">Ver el menu</a>
+          <a class="button ghost" href="#ordenar">Hacer un pedido</a>
+        </div>
+        <ul class="quick-info">
+          <li>Preparado por pedido</li>
+          <li>Entrega o recogida</li>
+          <li>Pago coordinado al confirmar</li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="blob"></span>
+        <span class="bean bean-a"></span>
+        <span class="bean bean-b"></span>
+        <div class="cup">
+          <span class="cup-top"></span>
+          <span class="steam"></span>
+        </div>
+        <span class="plate"></span>
+      </div>
+    </section>
+
+    <section class="strip" aria-label="Lo que nos distingue">
+      <div><strong>Por encargo</strong><span>Cada bebida se prepara cuando la ordenas.</span></div>
+      <div><strong>Entrega o recogida</strong><span>Tu eliges como recibirla.</span></div>
+      <div><strong>Atencion directa</strong><span>Coordinamos todo por WhatsApp.</span></div>
+    </section>
+     
+    <section class="section menu-section" id="menu-matcha">
+      <div class="section-heading">
+        <p class="eyebrow">NUESTRA SELECCION</p>
+        <h2>Matcha</h2>
+        <p>Precios y tamaños de referencia:</p>
+      </div>
+      <div class="menu-grid">
+        <article class="drink-card">
+          <div class="drink-visual cold"><span> Strawberry iced matcha latte </span></div>
+          <div class="card-body">
+            <h3>Strawberry matcha latte</h3>
+            <p>matcha con mermelada de fresa y leche.Disponible con crema batida o cold foam o normal/frío.</p>
+            <p class="price">Desde $280-$360</p>
+          </div>
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual cold"><span>Blueberry iced Matcha Latte</span>           </div>
+          <div class="card-body">
+            <h3>Blueberry Matcha latte</h3>
+            <p>Suave, cremoso y dulcito con mermelada de blueberry. Disponible con crema batida o cold foam,o normal/frío.</p>
+            <p class="price">Desde $280/$360</p>
+          </div>
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual cold"><span>Coconut Matcha</span></div>
+          <div class="card-body">
+            <h3>Coconut Matcha</h3>
+            <p>Matcha con agua de coco, refrescante y ligero. Disponible frio.</p>
+            <p class="price">Desde $180/230</p>
+          </div>
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual cold"><span>Matcha Latte</span></div>
+          <div class="card-body">
+            <h3>Matcha latte</h3>
+            <p>Suave, cremoso y equilibrado.Disponible con crema batida o cold foam,o normal, caliente o frío.</p>
+            <p class="price">Desde $250/$330</p>
+          </div>
+      </article>
+        <article class="drink-card">
+          <div class="drink-visual cold"><span>Coconut Matcha Cloud</span></div>
+          <div class="card-body">
+            <h3>Coconut Matcha Cloud</h3>
+            <p>Suave,refrescante y cremoso. Disponible frío.</p>
+            <p class="price">Desde $275/$330</p>
+          </div>
+         </section>   
+        
+    <section class="section menu-section" id="menu-cafe">
+      <div class="section-heading">
+        <p class="eyebrow">NUESTRA SELECCION</p>
+        <h2>Cafe</h2>
+        <p>
+      </div>
+      <div class="menu-grid">
+        <article class="drink-card">
+          <div class="drink-visual lat"><span>French Vanilla</span></div>
+          <div class="card-body">
+            <h3>French Vanilla</h3>
+            <p>Fuerte y cremoso.Disponible frio o caliente.</p>
+            <p class="price">Desde $270/290</p>
+          </div>
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual cap"><span>Caramel latte</span></div>
+          <div class="card-body">
+            <h3>Caramel latte</h3>
+            <p>caramelo con leche y una capa cremosa de espuma.</p>
+            <p class="price">Desde $260</p>
+          </div>
+
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual mocha"><span>Mocha</span></div>
+          <div class="card-body">
+            <h3>Mocha</h3>
+            <p>Café con chocolate, leche y un acabado dulce. Disponible frio o caliente</p>
+            <p class="price">Desde $230/270</p>
+          </div>
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual bot"><span>Iced Nutella Latte</span></div>
+          <div class="card-body">
+            <h3>Iced Nutella Latte</h3>
+            <p>para los amantes de la Nutella.Café con leche,avellana y Nutella.</p>
+            <p class="price">Desde $300/350</p>
+          </div>
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual cap"><span>Hazelnut latte</span></div>
+          <div class="card-body">
+            <h3>Hazelnut latte</h3>
+            <p>crema de avellanas con leche,cafe y dulce de leche en los lados.</p>
+            <p class="price">Desde $300/360</p>
+          </div>
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual esp"><span>Iced Oreo Coffee Latte </span>             </div>
+          <div class="card-body">
+            <h3>Iced Oreo Coffe latte</h3>
+            <p>Galletitas oreo,cafe y leche.</p>
+            <p class="price">Desde $280-$355</p>
+         </div>
+         </section>
+        
+        
+    <section class="section menu-section" id="menu-Smoothie">
+      <div class="section-heading">
+        <p class="eyebrow">NUESTRA SELECCIÓN</p>
+        <h2>Smoothie</h2>
+        <p>
+      </div>
+      <div class="menu-grid">
+        <article class="drink-card">
+          <div class="drink-visual lat"><span>Strawberry Smoothie</span></div>
+          <div class="card-body">
+            <h3>Strawberry Smoothie</h3>
+            <p>Cremoso con leche y fresas.</p>
+            <p class="price">Desde $175/230</p>
+          </div>
+        </article>
+        <article class="drink-card">
+          <div class="drink-visual lat"><span>Smoothie de la Isla</span></div>
+          <div class="card-body">
+            <h3>Smoothie de la Isla</h3>
+            <p>Mixto de frutas,leche y cremosidad.</p>
+            <p class="price">Desde $200/250</p>
+          </div>
+         </article>
+
+
+   
+
+      <p class="menu-note">Otra combinacion? Cuentanos que se te antoja y la preparamos a tu gusto.</p>
+   </section>
+
+    <section class="section steps-section" id="como-ordenar">
+      <div class="section-heading light">
+        <p class="eyebrow">RAPIDO Y SENCILLO</p>
+        <h2>Como ordenar</h2>
+      </div>
+      <ol class="steps">
+        <li><span class="num">01</span><h3>Elige</h3><p>Selecciona tu bebida, el tamano y como la prefieres.</p></li>
+        <li><span class="num">02</span><h3>Envia tu orden</h3><p>Completa el formulario y tu pedido queda listo para enviar.</p></li>
+        <li><span class="num">03</span><h3>Confirma</h3><p>Coordinamos el pago y la entrega o recogida contigo.</p></li>
+      </ol>
+    </section>
+
+    <section class="section story-section" id="nosotros">
+      <div class="story-mark"><img src="logo-warm.png" alt="Emblema de SJO Coffee"></div>
+      <div class="story-copy">
+        <p class="eyebrow">SOBRE SJO COFFEE</p>
+        <h2>Cafe preparado por pedido, desde donde estes.</h2>
+        <p>SJO Coffee es una cafeteria virtual que trabaja exclusivamente por encargo. Seleccionamos nuestros ingredientes para ofrecerte bebidas que puedas disfrutar en cada visita, sin filas y con la comodidad de ordenar en linea.</p>
+        <p>No tenemos local abierto al publico: cada pedido se prepara cuando lo haces y se coordina contigo para la entrega o la recogida.</p>
+      </div>
+    </section>
+
+    <section class="section order-section" id="ordenar">
+      <div class="order-copy">
+        <p class="eyebrow">HAZ TU PEDIDO</p>
+        <h2>Que se te antoja hoy?</h2>
+        <p>.</p>
+        <dl class="policy">
+          <dt>Pedidos</dt><dd>Solo por encargo, con anticipacion.</dd>
+          <dt>Entrega</dt><dd>Coordinada segun tu zona.</dd>
+          <dt>Recogida</dt><dd>Se acuerda al confirmar el pedido.</dd>
+        </dl>
+      </div>
+      <form id="order-form" class="order-form" novalidate>
+        <label for="name">Nombre</label>
+        <input id="name" name="name" type="text" placeholder="Tu nombre" autocomplete="name" required>
+
+         <label for="smoothie">Smoothie</label>
+        <select id="smoothie" name="smoothie" required>
+          <option value="">Selecciona un tipo de smoothie</option>
+          <option>Strawberry smoothie</option>
+          <option>Smoothie de la isla</option>
+          <option>Banana smoothie</option>
+          <option>Smoothie Fresa-Banana blast</option>
+          <option>Smoothie Morado</option>
+          <option>Smoothie Verde</option>
+          <option>Ninguno</option>
+        </select>
+       
+            <div class="form-row">
+          <div>
+            <label for="size">Tamaño</label>
+            <select id="size" name="size">
+              <option value="">Selecciona un tamaño</option>
+              <option>Pequeño</option>
+              <option>Mediano</option>
+              <option>Grande</option>
+            </select>
+          </div>
+          <div>
+
+            <label for="dulce o sin nada">Dulce o sin nada</label>
+            <select id="Dulce o sin nada" name="Dulce o sin nada">
+              <option value="">Selecciona una opción</option>
+              <option>Azucar</option>
+              <option>Miel</option>
+              <option>Ninguno</option>
+            </select>
+          </div>
+        </div>
+
+
+        <label for="coffee">Cafe/Matcha</label>
+        <select id="coffee" name="Cafe/Matcha" required>
+          <option value="">Selecciona un Cafe/Matcha</option>
+          <option>Matcha latte</option>
+          <option>Strawberry matcha</option>
+          <option>Caramel Latte</option>
+          <option>French Vanilla</option>
+          <option>Mocha</option>
+          <option>Iced Nutella Latte</option>
+          <option>Ninguno</option>
+        </select>
+         
+        <div class="form-row">
+          <div>
+            <label for="size">Tamaño</label>
+            <select id="size" name="size">
+              <option value="">Selecciona un tamaño</option>
+              <option>Pequeño</option>
+              <option>Mediano</option>
+              <option>Grande</option>
+            </select>
+          </div>
+          <div>
+            <label for="temperature">Preparacion</label>
+            <select id="temperature" name="temperature">
+              <option value="">Selecciona una temperatura</option>
+              <option>Caliente</option>
+              <option>Frio</option>
+            </select>
+          </div>
+        </div>
+    
+         <label for="waffles">Waffles</label>
+        <select id="waffles" name="waffles" required>
+          <option value="">Selecciona un tipo de waffle</option>
+          <option>Mini waffles</option>
+          <option>Waffles redonditos mediano</option>
+          <option>Ninguno</option>
+        </select>
+       
+
+         <div class="form-row">
+          <div>
+            <label for="fruit">frutas</label>
+            <select id="fruit" name="frutas">
+              <option value="">Selecciona una fruta</option>
+              <option>Banana $30</option>
+              <option>Blueberry $40</option>
+              <option>Fresas $35</option>
+              <option>Caranbola $25</option>
+              <option>Todos $50</option>
+              <option>Ninguno</option>
+            </select>
+          </div>
+          <div>
+            <label for="extra">Extras</label>
+            <select id="extras" name="extras">
+              <option value="">Selecciona un extra</option>
+              <option>Azucar glass $10</option>
+              <option>Mantequilla de mani y Azucar glass $20</option>
+              <option>Nutella y Azucar glass $30</option>
+              <option>Mantequilla y huevos $30</option>
+              <option>Ninguno</option>
+            </select>
+          </div>
+        </div>
+
+
+
+        <label for="method">Entrega</label>
+        <select id="method" name="method">
+          <option>Entrega a domicilio</option>
+          <option>Recogida</option>
+        </select>
+
+        <label for="details">Detalles del pedido</label>
+        <textarea id="details" name="details" rows="3" placeholder="Tipo de leche, nivel de azúcar, cantidad, dirección..."></textarea>
+
+        <button class="button ghost primary full" type="submit">Preparar mi pedido</button>
+        <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="section-heading">
+        <p class="eyebrow">CONTACTO</p>
+        <h2>Hablemos de tu pedido</h2>
+        <p></p>
+      </div>
+      <div class="contact-grid">
+        <article><h3>WhatsApp</h3><p>1(347)807-5661</p></article>
+        <article><h3>Tiktok</h3><p>sjo.coffee</p></article>
+        <article><h3>Correo</h3><p>sjo.coffee2006@gmail.com</p></article>
+        <article><h3>Instagram</h3><p>sjo.coffee2006</p></article>
+        <article><h3>Horario</h3><p>Lunes a sabado, 7:40am a 10:00pm</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio">
+      <img src="logo-warm.png" alt="">
+      <span class="brand-text"><strong>SJO Coffee</strong><small>Cafeteria virtual</small></span>
+    </a>
+    <p>Cafeteria virtual · Pedidos por encargo</p>
+    <p>© 2026 SJO Coffee</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
